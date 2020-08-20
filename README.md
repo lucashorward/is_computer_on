@@ -1,0 +1,1 @@
+A humourous crate that can also be compiled into a NPM package with `wasm-pack`
