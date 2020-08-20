@@ -3,8 +3,12 @@ name = "is_computer_on"
 version = "1.0.0"
 authors = ["lucashorward <lucas.horward@gmail.com>"]
 edition = "2018"
+license = "MIT"
+readme = "README.md"
 repository = "https://github.com/lucashorward/is_computer_on"
 keywords = ["is_computer_on", "computer", "on", "wasm", "rust"]
+description = "A humourous crate"
+include = ["src/", "LICENSE.md", "README.md"]
 
 [lib]
 crate-type = ["cdylib", "rlib"]
