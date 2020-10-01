@@ -2,6 +2,7 @@ use wasm_bindgen::prelude::*;
 
 #[cfg(test)]
 mod tests {
+    // This is a white-box test in which the test itself tries to assert if the is_computer_on() function return value is equal to the boolean true.
     use crate::is_computer_on;
     #[test]
     fn the_computer_is_on() {
