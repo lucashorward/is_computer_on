@@ -12,5 +12,5 @@ mod tests {
 
 #[wasm_bindgen]
 pub fn is_computer_on() -> bool {
-    return true;
+    true
 }
